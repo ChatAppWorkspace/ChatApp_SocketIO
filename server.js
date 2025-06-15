@@ -13,7 +13,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     // REPLACE THIS WITH YOUR EXACT GITHUB PAGES URL
-    origin: "https://chatappworkspace.github.io/ChatApp_SocketIO/",
+    origin: "https://chatappworkspace.github.io",
     methods: ["GET", "POST"],
   },
 });
