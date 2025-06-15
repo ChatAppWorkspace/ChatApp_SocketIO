@@ -8,6 +8,7 @@ A full-stack real-time chat application built with **Socket.IO**, **Node.js (Exp
 > 🔹 Frontend: [https://chatappworkspace.github.io/ChatApp_SocketIO/](https://chatappworkspace.github.io/ChatApp_SocketIO/)
 > 🔹 Backend: [https://chatapp-socketio-mr7l.onrender.com/](https://chatapp-socketio-mr7l.onrender.com/)
 
+![alt text](.github/image.png)
 ---
 
 ## 📁 Project Structure
