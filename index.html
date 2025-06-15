@@ -94,13 +94,9 @@
         let myUsername = `User-${Math.floor(Math.random() * 1000)}`;
         usernameInput.value = myUsername;
 
-        // --- THAY ĐỔI QUAN TRỌNG: Kết nối đến server trên OnRender ---
-        // Thay thế URL placeholder bằng URL thật của server bạn sau khi deploy.
         const SERVER_URL = "https://chatapp-socketio-mr7l.onrender.com/";
         console.log(`Connecting to remote server at ${SERVER_URL}...`);
         const socket = io(SERVER_URL);
-
-        // --- Phần còn lại của code giữ nguyên, không cần thay đổi ---
 
         const updateStatus = (text, color, isPulsing) => {
           statusIndicator.innerHTML = `
